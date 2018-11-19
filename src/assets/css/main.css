@@ -17,7 +17,7 @@
     background: #fff;
 }
 .bg-info {
-    background-color: #e2001a !important;
+    background-color: white !important;
 }
 .title{
     color: #AFB71C;
@@ -34,4 +34,15 @@
 .block{
     display: block
 }
-  
+.ugel-img{
+    width: 70%;
+}
+button#ddown-left__BV_toggle_ {
+    background-color: #AFB71C;
+    border: #AFB71C;
+}
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: #000;
+    font-weight: bold;
+    font-family: "Omnes Regular";
+}

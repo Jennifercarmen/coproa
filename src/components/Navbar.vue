@@ -1,8 +1,10 @@
 
 <template>
   <div class="">
+      
     <b-navbar toggleable="md" type="dark" variant="info">
-      <b-navbar-brand href="#">Ugel Paita</b-navbar-brand>
+      <b-navbar-brand href="#">      <img :src="image" class="ugel-img"/>
+</b-navbar-brand>
       <b-dropdown id="ddown-left" text="Proceso COPROA" variant="primary" class="m-2">
         <NavList></NavList>
       </b-dropdown>
@@ -16,11 +18,16 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+      
   </div>
 </template>
 <script>
   import NavList from "./NavList";
   export default {
+    data() {
+      return {
+        image: "src/assets/images/minedu.png"
+    }},
     components: {
       NavList
     }
