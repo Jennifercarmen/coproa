@@ -1,0 +1,37 @@
+.page {
+    background-color: #423e3e14;
+}
+.header img {
+    width: 200px;
+}
+.form-data{
+    margin-top: 50px;
+    padding-bottom: 200px;
+    width: 600px;
+    
+}
+
+.form-datosG{
+    padding: 28px 32px;
+    border-radius: 3rem 0 3rem 0;
+    background: #fff;
+}
+.bg-info {
+    background-color: #e2001a !important;
+}
+.title{
+    color: #AFB71C;
+    font-size: 18px;
+}
+.color-label{
+    color: #009cde;
+}
+.btn-success {
+    color: #fff;
+    background-color: #f66840;
+    border-color: #f66840;
+}
+.block{
+    display: block
+}
+  

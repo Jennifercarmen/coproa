@@ -39,9 +39,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-
 /*Clases generales*/
-
 body, html, section {
   height: 100%;
 }
@@ -49,14 +47,6 @@ body, html, section {
 .title-detail {
   font-size: 21px;
   color:  rgb(213, 120, 0);
-}
-
-.text-blue-miranda {
-  color: rgb( 65, 85, 99);
-}
-
-.text-gold-amado {
-  color: rgb(213, 120, 0)
 }
 
 .center {
@@ -76,13 +66,6 @@ p.welcome {
   margin: 1em 0 1em 0;
 
 }
-
-.block{
-  display: block
-}
-
-
-
 .btn {
   background-color: rgb(213, 120, 0);
   color: #ffffff;
@@ -98,20 +81,7 @@ p.welcome {
   bottom: 1px;
 }
 
-.btn-gmail {
-  width: 100%;
-  background-color:white; 
-  color: rgb(213, 120, 0);
-  border-radius: 5px;
-  margin: 5px;
-  font-size: 16px;
-  vertical-align: middle;
-  padding: 2px;
-  border-color:rgb(213, 120, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
+
 
 .rela:hover{
   color: white;
@@ -161,28 +131,6 @@ p.welcome {
     margin: 3em 0 0em 0;
   }
 
-  .btn-gmail {
-    width: 100%;
-    background-color:white; 
-    color: rgb(213, 120, 0);
-    border-radius: 5px;
-    margin: 5px;
-    font-size: 16px;
-    vertical-align: middle;
-    padding: 2px;
-    border-color:rgb(213, 120, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center
-  }
-
-  .icon-gmail {
-   background-color: white !important;
-   color: rgb(213, 120, 0);
-   font-size: 1.9em;
-   margin-right: 10px;
-   
-  }
 
   span.line::before {
    content: '';

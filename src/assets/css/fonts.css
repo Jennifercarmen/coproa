@@ -1,0 +1,51 @@
+/* Font Family Omnes */
+@font-face {
+  font-family: "Omnes Black";
+  src: url("./../fonts/omnes-black.woff2") format('woff2'),
+       url("./../fonts/omnes-black.woff") format('woff'),
+       url("./../fonts/omnes-black.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Omnes Bold";
+  src: url("./../fonts/omnes-bold.woff2") format('woff2'),
+       url("./../fonts/omnes-bold.woff") format('woff'),
+       url("./../fonts/omnes-bold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Omnes ExtraLight";
+  src: url("./../fonts/omnes-extralight.woff2") format('woff2'),
+       url("./../fonts/omnes-extralight.woff") format('woff'),
+       url("./../fonts/omnes-extralight.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Omnes Light";
+  src: url("./../fonts/omnes-light.woff2") format('woff2'),
+       url("./../fonts/omnes-light.woff") format('woff'),
+       url("./../fonts/omnes-light.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Omnes Medium";
+  src: url("./../fonts/omnes-medium.woff2") format('woff2'),
+       url("./../fonts/omnes-medium.woff") format('woff'),
+       url("./../fonts/omnes-medium.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Omnes Regular";
+  src: url("./../fonts/omnes-regular.woff2") format('woff2'),
+       url("./../fonts/omnes-regular.woff") format('woff'),
+       url("./../fonts/omnes-regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Omnes Semibold";
+  src: url("./../fonts/omnes-semibold.woff2") format('woff2'),
+       url("./../fonts/omnes-semibold.woff") format('woff'),
+       url("./../fonts/omnes-semibold.ttf") format('truetype');
+}
+
+/* Fonts */
+.omnes-black { font-family: 'Omnes Black'; }
+.omnes-bold { font-family: 'Omnes Bold'; }
+.omnes-extralight { font-family: 'Omnes ExtraLight'; }
+.omnes-light { font-family: 'Omnes Light'; }
+.omnes-medium { font-family: 'Omnes Medium'; }
+.omnes-regular { font-family: 'Omnes Regular'; }
